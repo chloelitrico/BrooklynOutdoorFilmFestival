@@ -1,0 +1,167 @@
+
+/* GENERAL */
+body {
+	background-color: #101010
+}
+#announcements, #movies, #program, #book, #partners {
+	padding:10px;
+	margin:0px;
+}
+#movies h1, #program h1, #book h1 {
+	margin:40px 0px 40px 0px;
+}
+
+
+/* BUTTONS */
+.btn-primary {
+	margin: 10px;
+	margin-left: 30px;
+	border-radius: 25px;
+	background-color: #eeaa55;
+	border-color: #335555;
+}
+.btn-primary:hover {
+	background-color: #335555;
+}
+.btn-link {
+	color: #eeaa55;
+}
+.btn-link:hover {
+	color: white;
+}
+.nav-pills>li.active>a, .nav-pills>li.active>a:hover, .nav-pills>li.active>a:focus {
+	background-color: #eeaa55;
+    color: #fff;
+}
+.nav-pills>li>a {
+    color: #fff;
+    background-color: rgba(255,255,255,0.5);
+    margin: 10px;
+}
+.nav-pills>li>a:hover {
+	color:#332211;
+}
+
+
+/* ANNUONCEMENTS */
+.btn-info {
+	color: #fff;
+	width:95%;
+    display:block;
+	background-color: #ccbb99;
+	border-color: #ccbb99;
+	margin:0px 20px 0px 20px;
+}
+.btn-info:hover {
+	background-color: #eeaa55;
+	border-color:#fff;
+}
+.btn-info:active {
+    background:#eeaa55;
+    outline-color: #fff;
+}
+#announcements .card-body {
+	width:95%;
+	margin:0px 20px 20px 20px;
+	padding: 10px;
+	background-color: #eeddcc;
+	color:#000;
+}
+.btn-info:focus {
+	color: #fff;
+	background-color: #ccbb99;
+}
+
+
+/* MOVIES */
+#movies {
+	background-color: #335555;
+}
+#movies h1 {
+	color: #fff;
+}
+#movies p {
+	font-size: 18px;
+}
+#movies img {
+	width:200px;
+	height:300px;
+	display: block;
+	margin: 0 auto;
+}
+#movies #tabs .movie-tiles {
+	margin:10px 0px 20px 0px;
+	padding:20px 5px 10px 5px;
+	border-style: solid;
+    border-width: 4px;
+    border-color: #cccccc;
+    background-color:rgba(0,0,0,0.4);
+    color: #fff; 
+}
+.row.equal {
+    display: flex;
+    flex-wrap: wrap;
+  }
+
+
+/* PROGRAM */
+#program {
+	background-color: #eeaa55;
+}
+.table {
+	margin: auto;
+	width: 70% !important; 
+	margin-bottom:40px;
+
+}
+
+
+/* BOOK */
+#book {
+	background-color: #ccbb99;
+}
+#book h1 {
+	color:#fff;
+}
+#book p {
+	color:#fff;
+	z-index: 2;
+    position: relative;
+    margin-left:15%; 
+    margin-right:15%;
+}
+.form {
+    position: relative;
+    overflow: hidden;
+}
+.form:before {
+    content: ' ';
+    display: block;
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+    opacity: 0.4;
+    background-image: url('images/background.jpg');
+    background-repeat: no-repeat;
+    background-position: 50% 0;
+    background-size: cover;
+}
+.form label, button,select, input, h1 {
+    z-index: 2;
+    position: relative;
+    color: #fff;
+} 
+
+
+/* FOOTER */
+footer {
+	padding:10px;
+	background-color: #101010;
+}
+.logo {
+	width: 250px;
+	margin:10px 3% 10px 3%;  
+}

@@ -1,0 +1,341 @@
+<!DOCTYPE HTML>
+<html>
+
+    <head>
+        <meta charset="utf-8">
+        <link href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css" rel="stylesheet">
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <link rel="stylesheet" type="text/css" href="stylesheet.css">
+        <title>Brooklyn Outdoor Film Festival</title>
+        <link rel="icon" href="images/icon.png">
+
+    </head>
+
+    <body id="top">
+        <div class="fluid-container">
+
+
+            <!--===================== NAVIGATION =========================-->
+            <header class="row">
+                <nav class="navbar navbar-inverse navbar-fixed-top" role="navigation">
+                    <div class="navbar-header">
+                        <button type="button" class="navbar-toggle" data-toggle="collapse" data-target=".navbar-collapse">
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                        <a class="navbar-brand" href="#top">Brooklyn.Outdoor.Film.Festival</a>
+                    </div>
+                    <div class="collapse navbar-collapse">
+                        <ul class="nav navbar-nav pull-right">
+                            <li> <a href="#movies">Movies</a> </li>
+                            <li> <a href="#program">Program</a> </li>
+                            <li> <a href="#book">Book Tickets</a> </li>
+                        </ul>
+                    </div>
+                </nav>
+
+            </header>
+
+
+            <!--===================== CAROUSEL =========================-->
+            <div id="carousel" class="carousel slide" data-ride="carousel">
+                <ol class="carousel-indicators">
+                    <li data-target="#carousel" data-slide-to="0" class="active"></li>
+                    <li data-target="#carousel" data-slide-to="1"></li>
+                    <li data-target="#carousel" data-slide-to="2"></li>
+                </ol>
+                <div class="carousel-inner">
+                    <div class="item active"><img src="images/jeremy-yap-160713-unsplash.jpg" alt="Movie">
+                        <div class="carousel-caption"><h1>Brooklyn Outdoor Film Festival</h1><h3>@ The Brooklyn Bridge Park</h3></div>
+                    </div>
+                    <div class="item"><img src="images/simon-fairhurst-1077416-unsplash.jpg" alt="Park">
+                        <div class="carousel-caption"><h1>From August 5th to 8th</h1><h3>@ 6PM to 12PM</h3></div>
+                    </div>
+                    <div class="item"><img src="images/zhifei-zhou-689004-unsplash.jpg" alt="Cinema">
+                        <div class="carousel-caption"><h1>Open to all ages!</h1><h3>Pre-register Today.</h3><a href="#book"><button class="btn btn-primary">Book Tickets</button></a></div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--===================== ANNOUNCEMENTS =========================-->
+            <div class="jumbotron row" id="announcements">
+                <h1 class="text-center"><span> Announcements </span></h1>
+                <div class="accordion" id="accordionExample">
+                  <div class="card">
+                    <div class="card-header" id="headingOne">
+                      <h5 class="mb-0">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseOne" aria-expanded="false" aria-controls="collapseOne">
+                          Registration is now open!
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseOne" class="collapse" aria-labelledby="headingOne" data-parent="#accordionExample">
+                      <div class="card-body text-center">
+                        Ticket reservation is on a first come, first serve, basis. Reserve your tickets as soon as possible to ensure an entry to the projection!
+                      </div>
+                    </div>
+                  </div>
+
+                  <div class="card">
+                    <div class="card-header" id="headingTwo">
+                      <h5 class="mb-0">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                          Interview with Brad Bird
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseTwo" class="collapse" aria-labelledby="headingTwo" data-parent="#accordionExample">
+                      <div class="card-body text-center">
+                        Brad Bird: film director of the incredibles 2.
+                      </div>
+                    </div>
+                  </div>
+                  <div class="card">
+                    <div class="card-header" id="headingThree">
+                      <h5 class="mb-0">
+                        <button class="btn btn-info collapsed" type="button" data-toggle="collapse" data-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                          First year of the Brooklyn Outdoor Film Festival!
+                        </button>
+                      </h5>
+                    </div>
+                    <div id="collapseThree" class="collapse" aria-labelledby="headingThree" data-parent="#accordionExample">
+                      <div class="card-body text-center">
+                        The Brooklyn Outdoor Film Festival will be projecting movies from Aug. 5th to 8th. 
+                      </div>
+                    </div>
+                  </div>
+                </div>
+            </div>
+
+       
+            <!--===================== MOVIES =========================-->
+            <div class="jumbotron row" id="movies">
+                <h1 class="text-center">Movies</h1>
+                <ul class="nav nav-pills nav-justified">
+                    <li class="active"><a data-toggle="pill" href="#action">ACTION</a></li>
+                    <li><a data-toggle="pill" href="#drama">DRAMA</a></li>
+                    <li><a data-toggle="pill" href="#kids">KIDS</a></li>
+                </ul>
+                <div id="tabs" class="tab-content">
+                    <div id="action" class="tab-pane fade in active">
+                        <div class="container-fluid">
+                            <div class="row equal">
+                                <div class="col-md-3 col-sm-6 movie-tiles"> 
+                                    <img src="images/movies/dark_knight.jpg"> 
+                                    <p class="text-center">When the menace known as the Joker emerges from his mysterious past, he wreaks havoc and chaos on the people of Gotham. The Dark Knight must accept one of the greatest psychological and physical tests of his ability to fight injustice.</p>      
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <img src="images/movies/matrix.jpg">
+                                    <p class="text-center">Have you ever had a dream that you were so sure was real? What if you couldn't awaken? How would you know the difference between dream and reality? </p>     
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <img src="images/movies/bourne.jpg">
+                                    <p class="text-center">A man is picked up by a fishing boat, bullet-riddled and suffering from amnesia, before racing to elude assassins and attempting to regain his memory.</p>   
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <img src="images/movies/blackpanther.jpg">
+                                    <p class="text-center">After the death of his father, Prince T'Challa ascends to the throne of the small African country of Wakanda. T'Challa is also Black Panther, superhero. Now not only must he govern his country but defeat a dangerous adversary.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="drama" class="tab-pane fade">
+                        <div class="container-fluid">
+                            <div class="row equal">
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/titanic.jpg">
+                                        <p class="text-center">A seventeen-year-old aristocrat falls in love with a kind but poor artist aboard the luxurious, ill-fated R.M.S. Titanic.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/shawshank.jpg">
+                                        <p class="text-center">Two imprisoned men bond over a number of years, finding solace and eventual redemption through acts of common decency.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/forrestgump.jpg">
+                                        <p class="text-center">The presidencies of Kennedy and Johnson, Vietnam, Watergate, and other history unfold through the perspective of an Alabama man with an IQ of 75.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/boyhood.jpg">
+                                        <p class="text-center">The joys and pitfalls of growing up are seen through the eyes of a child named Mason (Ellar Coltrane), his parents (Patricia Arquette, Ethan Hawke) and his sister (Lorelei Linklater).</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div id="kids" class="tab-pane fade">
+                        <div class="container-fluid">
+                            <div class="row equal">
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/The_Incredibles_2.jpg">
+                                        <p class="text-center">After the Parr family has put a stop to the villain Syndrome, everyday life slowly returns to normal. Father Bob takes care of the children. When a shady villain shows up, they must once again slip into their superhero costumes.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/spiritedaway.jpg">
+                                        <p class="text-center">A young girl, Chihiro, becomes trapped in a strange new world of spirits. When her parents undergo a mysterious transformation, she must call upon the courage she never knew she had to free herself and return her family to the outside world.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/mathilda.jpg">
+                                        <p class="text-center">Matilda is a bright little girl who is very eager to learn. Eventually, her insensitive parents send her to a school run by Miss Trunchbull. She is a cruel authoritarian that loathes children. Matilda befriends her school teacher, Miss Honey. She soon realizes Matilda's talents, but is later amazed to see the full extent of Matilda's powers.</p>
+                                    </div>
+                                </div>
+                                <div class="col-md-3 col-sm-6 movie-tiles">
+                                    <div class="col-xs-12">
+                                        <img src="images/movies/monstersinc.png">
+                                        <p class="text-center">In order to power the city, monsters have to scare children so that they scream. However, the children are toxic to the monsters, and after a child gets through, 2 monsters realize things may not be what they think.</p>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+
+            <!--===================== PROGRAM =========================-->
+            <div class="jumbotron row" id="program">
+                <h1 class="text-center">Program</h1>
+                <div class="col-xs-12">
+                    <table class="table table-hover">
+                        <thead>
+                            <tr>
+                                <th scope="col">Times</th>
+                                <th scope="col">August 5th</th>
+                                <th scope="col">August 6th</th>
+                                <th scope="col">August 7th</th>
+                                <th scope="col">August 8th</th>
+                            </tr>
+                        </thead>
+                        <tbody>
+                            <tr>
+                                <th scope="row">6:00PM</th>
+                                <td>Incredibles 2</td>
+                                <td>Spirited Away</td>
+                                <td>Matilda</td>
+                                <td>Monsters, Inc.</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">8:00PM</th>
+                                <td>Black Panther</td>
+                                <td>Titanic</td>
+                                <td>The Bourne Identity</td>
+                                <td>Boyhood</td>
+                            </tr>
+                            <tr>
+                                <th scope="row">10:00PM</th>
+                                <td>The Dark Knight</td>
+                                <td>Forest Gump</td>
+                                <td>Matrix</td>
+                                <td>The Shawshank Redemption</td>
+                            </tr>
+                        </tbody>
+                    </table>
+                </div>
+            </div>
+
+
+            <!--===================== BOOK TICKETS =========================-->
+            <div class="jumbotron row form" id="book">
+                <h1 class="text-center">Book Tickets</h1>
+                <p class="text-center"><b>Shows are free and open to anyone. Pre-register today to reserve a spot. Limited venue capacity of 5,000 people.</b></p>
+                <form>
+                    <div class="form-group col-sm-6">
+                        <label for="firstName">First Name</label>
+                        <input type="name" class="form-control" id="name" placeholder="First Name">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="lastName">Last Name</label>
+                        <input type="lastName" class="form-control" id="lastName" placeholder="Last Name">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="city">City</label>
+                        <input type="city" class="form-control" id="city" placeholder="City">
+                    </div>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <label for="state">State</label>
+                        <input type=state class="form-control" id="state" placeholder="State">
+                    </div>
+                    <div class="form-group col-sm-3 col-xs-6">
+                        <label for="zip">Zip</label>
+                        <input type=zip class="form-control" id="zip" placeholder="Zip">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="street">Street</label>
+                        <input type="street" class="form-control" id="street" placeholder="Street">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="email">Email</label>
+                        <input type="email" class="form-control" id="email" placeholder="Email">
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="movie">Movie</label>
+                        <select class="form-control">
+                        <option>Incredibles 2</option>
+                        <option>Spirited Away</option>
+                        <option>Mathilda</option>
+                        <option>Monsters, Inc.</option>
+                        <option>Black Panther</option>
+                        <option>Titanic</option>
+                        <option>The Bourne Identity</option>
+                        <option>Boyhood</option>
+                        <option>The Dark Knight</option>
+                        <option>Forest Gump</option>
+                        <option>Matrix</option>
+                        <option>The Shawnshank Redemption</option>
+                        </select>
+                    </div>
+                    <div class="form-group col-sm-6">
+                        <label for="date">Date of Screening</label>
+                        <select class="form-control">
+                        <option>5th Aug</option>
+                        <option>6th Aug</option>
+                        <option>7th Aug</option>
+                        <option>8th Aug</option>
+                        </select>
+                    </div>
+                    <button type="submit" class="btn btn-primary">Submit</button>
+                </form>
+            </div>
+
+
+            <!--===================== PARTNERS =========================-->
+            <div class="jumbotron row" id="partners">
+                <h1 class="text-center"><span> Partners </span></h1>
+                <div class="text-center"> 
+                    <a  href="https://www.brooklynbridgepark.org/"><img class="logo" src="images/bbp_logo_huge_blue.png" alt="BBP logo"></a>
+                    <a href="http://brooklyn.news12.com/"><img class="logo" src="images/news-12-longisland-down.png" alt="news12 logo"></a>
+                </div>
+            </div>
+
+
+            <!--===================== FOOTER =========================-->
+            <footer>
+                <div class="col-lg-12 text-center">
+                    <a class="btn btn-link" href="https://facebook.com"><i class="fa fa-facebook fa-2x"></i></a>
+                    <a class="btn btn-link" href="https://twitter.com"><i class="fa fa-twitter fa-2x"></i></a>
+                    <a class="btn btn-link" href="https://instagram.com"><i class="fa fa-instagram fa-2x"></i></a>
+                </div>
+            </footer>
+
+        </div>
+
+
+        <!--===================== SCRIPTS =========================-->
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
+        <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+
+    </body>
+</html>
